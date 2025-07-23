@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Animated Welcome Text */}
           <div className="mb-8">
             <div className="text-lg md:text-xl text-primary-foreground/70 mb-2 animate-fade-in font-light tracking-wider">
-              WELCOME TO
+             
             </div>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 leading-tight animate-scale-in">
               <span className="bg-gradient-to-r from-primary-glow via-primary-foreground to-primary-glow bg-clip-text text-transparent animate-pulse">

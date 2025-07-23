@@ -81,7 +81,7 @@ const Contact = () => {
             <Card className="shadow-elegant border-border/50">
               <CardHeader>
                 <CardTitle className="text-2xl font-bold text-foreground">
-                  Send Us a Message
+                  Stay connected with the us! Join us on WhatsApp
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -118,7 +118,7 @@ const Contact = () => {
                     placeholder="Enter your email"
                     className="border-border/50 focus:border-primary transition-colors"
                   />
-                </div>
+                </div><br></br>
 
                 <div className="space-y-2">
                   <Label htmlFor="phone" className="text-foreground font-medium">
@@ -130,9 +130,9 @@ const Contact = () => {
                     placeholder="Enter your phone number"
                     className="border-border/50 focus:border-primary transition-colors"
                   />
-                </div>
+                </div><br></br>
 
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <Label htmlFor="service" className="text-foreground font-medium">
                     Service of Interest
                   </Label>
@@ -141,9 +141,9 @@ const Contact = () => {
                     placeholder="e.g., BMS Installation, IoT Solutions"
                     className="border-border/50 focus:border-primary transition-colors"
                   />
-                </div>
+                </div> */}
 
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <Label htmlFor="message" className="text-foreground font-medium">
                     Message
                   </Label>
@@ -153,11 +153,19 @@ const Contact = () => {
                     rows={4}
                     className="border-border/50 focus:border-primary transition-colors"
                   />
-                </div>
+                </div> */}
 
-                <Button className="w-full bg-primary hover:bg-primary/90 shadow-elegant">
-                  Send Message
-                </Button>
+               <a
+  href="https://wa.me/919072955013"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
+  <Button className="w-full bg-primary hover:bg-primary/90 shadow-elegant">
+    Send Message
+  </Button>
+</a>
+
               </CardContent>
             </Card>
           </div>
